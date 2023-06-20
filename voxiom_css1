@@ -1,0 +1,501 @@
+/* font */
+
+@font-face {
+    font-family: gamefont;
+    src: url("https://raw.githubusercontent.com/MOF1/krunker_css/main/css/fonts/Steradian-Bold.otf");
+}
+    
+* {
+    font-family: gamefont;
+}
+
+/*
+ __   __  _______  __    _  __   __  _______ 
+|  |_|  ||       ||  |  | ||  | |  ||       |
+|       ||    ___||   |_| ||  | |  ||  _____|
+|       ||   |___ |       ||  |_|  || |_____ 
+|       ||    ___||  _    ||       ||_____  |
+| ||_|| ||   |___ | | |   ||       | _____| |
+|_|   |_||_______||_|  |__||_______||_______|
+
+*/
+
+/* background image */
+.bNczYf {
+    background-image: url(https://wallpapercave.com/wp/wp4097159.jpg) !important;
+}
+    
+
+/* removes "Open Alpha Testing - Pre-Season" and "Stream to get featured here" texts and other stuff */
+.iYRclk,
+.yYlig,
+.ljgsos,
+.iqWSwf,
+.jCtviM,
+.cSKUzy,
+.iiRiSL,
+.lbvayB,
+.jboUUF,
+.jqlcWh,
+.bQFiuH,
+.fwBNqY,
+.iwluPY,
+.dzwgvu,
+.iUUfMk,
+.fRtCid {
+    display: none;
+}
+
+/* borders and backgrounds */
+.gDiQFf,
+.jIHuvv,
+.eFtTls,
+.jcrXHI,
+.gifBhy,
+.dLoMgE,
+.eNXkaA,
+.gtgzyh,
+.fbugDk,
+.kjTitw,
+.fIJPbg,
+.kaIhL,
+.diCJlC,
+.WRPBN,
+.cwGsTg,
+.gYsyUj,
+.ceqWYf,
+.EvjaM {
+    border: 1px solid #06bbbb !important;
+    border-radius: 30px !important;
+    background: #221c35 !important;
+}
+
+.YECSn,
+.bVefSq,
+.jIHuvv,
+.YECSn.active,
+.active,
+.gifBhy,
+.fheinf,
+.cdbCBk,
+.hDBLYG,
+.liNAWk,
+.liNAWk:hover,
+.huUhAm {
+    background-color: transparent;
+}
+
+.buWQwC,
+.kkBIHs,
+.jcrXHI {
+    background: transparent;
+}
+
+.exMOCY,
+.glVnGM,
+.guVumh,
+.eZThrO,
+.jbjwZx,
+.fheinf,
+.kQPydY,
+.egphfS,
+.cCThLf,
+.hEKUAW,
+.bKJNmD,
+.kWTKXz,
+.iwQGxq,
+.bVobZk,
+.hyesiy,
+.hGyPyW,
+.jWBgWY {
+    border: 1px solid #06bbbb;
+    border-radius: 5px !important;
+    background: #3b4975;
+}
+
+.exMOCY:hover,
+.glVnGM:hover,
+.eZThrO:hover,
+.jbjwZx.active,
+.huUhAm,
+.bVobZk:hover,
+.hyesiy:hover,
+.hGyPyW:hover,
+.jWBgWY:hover {
+    background: #2f3957;
+}
+
+.hPyFyL,
+.worQy,
+.cGXUJi,
+.igNAJT,
+.iWanaR,
+.XHUWe {
+    border: 1px solid #06bbbb;
+    border-radius: 5px !important;
+}
+
+.kBNKfZ,
+.NLTMw,
+.hDBLYG,
+.huUhAm,
+.fgGEUZ,
+.eSMXow,
+.bllpRw,
+.larIXD {
+    border-radius: 30px;
+}
+
+.hDBLYG {
+    border: 3px solid;
+}
+
+.jiPzLu {
+    border-radius: 20px;
+}
+
+/* put reddit, twitch and twitter icons on the center of the box */
+.gDiQFf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* youtube icon */
+.buWQwC {
+    content: url(https://cdn.discordapp.com/attachments/842898946765881367/1074295029960560701/youtube_logo1.png);
+    height: 200px;
+}
+
+/* twitch icon */
+.kkBIHs {
+    content: url(https://i.pinimg.com/originals/9c/eb/fb/9cebfb992f9b60de981857f1c0a89a78.png);
+    height: 200px;
+}
+
+/* discord icon */
+.iRqeFU {
+    content: url(https://imgs.search.brave.com/X5Q_wwC1c0aZbdBKT3_L_-MuoZZ8yEla0ipu8iaF5iM/rs:fit:511:512:1/g:ce/aHR0cHM6Ly93d3cu/cG5na2l0LmNvbS9w/bmcvZnVsbC8xOS0x/OTQwNjNfZGlzY29y/ZC1sb2dvLWRpc2Nv/cmQtaWNvbi5wbmc);
+    height: 200px;
+    width: auto;
+}
+
+/* reddit icon */
+.fmVwwN {
+    content: url(https://i.pinimg.com/originals/16/bd/52/16bd524cb65c552e1ccbb9548296d2fa.png);
+    height: 200px;
+    margin-left: 0px;
+}
+
+/* twitter icon */
+.bwKKHU {
+    content: url(https://i.pinimg.com/originals/3e/ab/da/3eabdae0d74ca1c3a008d43afebccc94.png);
+    height: 200px;
+}
+
+/* voxiom logo */
+.hrxbol {
+    content: url(https://cdn.discordapp.com/attachments/842898946765881367/1047625697876783275/vox_transparent.png);
+    height: 400px;
+    width: auto;
+}
+
+/* hover */
+.guVumh:hover,
+.jbjwZx:hover,
+.YECSn:hover,
+.bVefSq:hover,
+.jIHuvv:hover,
+.eZThrO:hover,
+.fheinf:hover,
+.hRFyHw:hover,
+.kQPydY:hover,
+.cCThLf:hover,
+.egphfS:hover,
+.hEKUAW:hover,
+.bKJNmD:hover,
+.iwQGxq:hover,
+.cGXUJi:hover,
+.kWTKXz:hover,
+.igNAJT:hover,
+.XHUWe:hover,
+.iWanaR:hover,
+.bUZNOl:hover,
+.worQy:hover,
+.hDBLYG:hover,
+.cVEAnO:hover,
+.hyesiy:hover,
+.hGyPyW:hover,
+.jWBgWY:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+    opacity: 1;
+    background: #272727;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    border: 1px solid #06bbbb !important;
+    border-radius: 5px !important;
+}
+
+.exMOCY:hover,
+.glVnGM:hover,
+.buWQwC:hover,
+.kkBIHs:hover,
+.bwKKHU:hover,
+.fmVwwN:hover,
+.iRqeFU:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+    opacity: 1;
+    z-index: 99999;
+}
+
+/* dehover */
+.exMOCY,
+.jbjwZx,
+.fheinf,
+.hRFyHw,
+.glVnGM,
+.guVumh,
+.YECSn,
+.bVefSq,
+.jIHuvv,
+.buWQwC,
+.kkBIHs,
+.bwKKHU, 
+.fmVwwN,
+.iRqeFU,
+.hDBLYG,
+.eZThrO,
+.kQPydY,
+.cCThLf,
+.egphfS,
+.hEKUAW,
+.worQy,
+.bKJNmD,
+.cGXUJi,
+.kWTKXz,
+.bUZNOl,
+.iWanaR,
+.igNAJT,
+.XHUWe,
+.iwQGxq,
+.cVEAnO,
+.bVobZk,
+.hyesiy,
+.hGyPyW,
+.jWBgWY {
+    transform: scale(0.83);
+    transition: all 0.3s;
+    opacity: 1;
+}
+
+/* level progress bar */
+.jmbfN,
+.gpYDZL {
+    background: linear-gradient(to right, #06bbbb, #b84fff) !important;
+}
+
+.kCxiPq,
+.fVHIjH {
+    border: 2px solid #ffb914;
+    border-radius: 3px;
+}
+
+/* level number */
+.cElyck,
+.Wyvsc,
+.bXChBy {
+    color: #ffb914;
+    border-radius: 3px;
+    min-width: 2.7rem;
+    border: 2px solid #b84fff;
+    font-size: 39px;
+    background: #1a1f2e;
+    padding: 0.1rem 1rem;
+    font-weight: 700;
+    margin-right: 0.45rem;
+}
+
+/* some boxes and buttons */
+.fXTPcV {
+    border-radius: 20px;
+}
+
+.cEmMal {
+    border-radius: 40px;
+}
+
+.guVumh {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 17.5px;
+}
+
+.fheinf {
+    font-size: 150%;
+}
+
+.hRFyHw {
+    font-size: 120%;
+}
+
+/* stats mode selection */
+.exMOCY,
+.glVnGM {
+    padding: 12px;
+    font-size: 15px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kZiOwU {
+    position: relative;
+    left: 10px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.jbjwZx,
+.kQPydY,
+.cCThLf,
+.egphfS,
+.hEKUAW,
+.cGXUJi,
+.kWTKXz,
+.iwQGxq,
+.iwMsnr {
+    width: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.kQPydY.nav-stats-item-active,
+.cCThLf.nav-stats-item-active,
+.egphfS.nav-stats-item-active,
+.iwQGxq.nav-stats-item-active,
+.hEKUAW.active,
+.jbjwZx.active {
+    color: #ffb914;
+}
+
+/* wider market page */
+.kaIhL {
+    width: 150%;
+}
+
+/* wider friends page */
+.EvjaM {
+    width: 120%;
+}
+
+/* clan page search */
+.jJoDNn {
+    width: 50%;
+}
+
+.ceqWYf {
+    width: 130%;
+}
+
+/* wider game page */
+.bzuEEU {
+    width: 150%;
+}
+
+.gifBhy {
+    width: 350px;
+    height: 400px;
+}
+
+.jcrXHI{
+    height: 400px;
+}
+
+.iXvdEs {
+    height: 100%
+}
+
+.exMOCY,
+.glVnGM {
+    width: 120%;
+    height: 120%;
+}
+
+.etiXTZ {
+    margin-top: 40px;
+}
+
+.jcrXHI {
+    display: flex;
+}
+
+.etiXTZ {
+    font-size: 120%;
+}
+
+.gDiQFf {
+    width: 500px;
+    height: 200px;
+}
+
+/* shop crates */
+.WRPBN {
+    width: 120%;
+}
+
+/*
+ ___   __    _         _______  _______  __   __  _______ 
+|   | |  |  | |       |       ||   _   ||  |_|  ||       |
+|   | |   |_| | ____  |    ___||  |_|  ||       ||    ___|
+|   | |       ||____| |   | __ |       ||       ||   |___ 
+|   | |  _    |       |   ||  ||       ||       ||    ___|
+|   | | | |   |       |   |_| ||   _   || ||_|| ||   |___ 
+|___| |_|  |__|       |_______||__| |__||_|   |_||_______|
+
+*/
+
+/* stuff i'm removing */
+.hmiDqW,
+.lnowGN,
+.dXfkYO,
+.kNYfem,
+.gZLiLw,
+.gpHlKD,
+.gDkaEo,
+.gCgbHs,
+.hjworq {
+    display: none;
+}
+
+/* menu, tab list, items and inventory */
+.kOsDsm,
+.huSgnK,
+.NknFt {
+    border: 1px solid #06bbbb !important;
+    border-radius: 30px !important;
+    background: #221c35 !important;
+}
+
+.geVVbd {
+    border: 1px solid #06bbbb;
+    border-radius: 5px !important;
+}
+
+.hIaLVk {
+    border: 6px solid #8f16e0;
+    border-radius: 40px;
+}
+
+.lfSpkR {
+    border-radius: 100%; /* just for it to become a circle */
+}
+
+.dxWFIk { 
+    border: 3px solid #06bbbb;
+    border-radius: 40px;
+}
